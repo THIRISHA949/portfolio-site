@@ -1,5 +1,10 @@
 const projects = [
   {
+    title: "First Project",
+    desc: "My first website built using HTML, CSS, and JavaScript. Practiced layout, responsiveness, and clean structure.",
+    link: "https://thirisha949.github.io/first-project/",
+  },
+  {
     title: "To-Do List App",
     desc: "A task management app built in React with CRUD functionality.",
     link: "https://thirisha949.github.io/To-Do-List-App/",
@@ -38,3 +43,4 @@ projects.forEach((p) => {
 function scrollToProjects() {
   document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
 }
+
